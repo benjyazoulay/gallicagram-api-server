@@ -26,7 +26,7 @@ export default function Home() {
               <code>{`{
   "mcpServers": {
     "gallicagram": {
-      "url": "${typeof window !== "undefined" ? window.location.origin : "https://your-app.vercel.app"}/api/sse"
+      "url": "${typeof window !== "undefined" ? window.location.origin : "https://gallicagram-api-server.vercel.app"}/api/sse"
     }
   }
 }`}</code>
