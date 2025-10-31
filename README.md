@@ -61,15 +61,15 @@ Add to your Claude Desktop configuration file:
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 
-\`\`\`json
+```json
 {
   "mcpServers": {
     "gallicagram": {
-      "url": "https://your-app.vercel.app/api/sse"
+      "url": "https://gallicagram-api-server.vercel.app/api/sse"
     }
   }
 }
-\`\`\`
+```
 
 ### 3. Restart Claude Desktop
 
@@ -78,19 +78,19 @@ The Gallicagram tools will now be available in Claude!
 ## Usage Examples
 
 **Search for a word:**
-\`\`\`
+```
 Use query_corpus to find occurrences of "révolution" in French press from 1789 to 1799
-\`\`\`
+```
 
 **Explore associations:**
-\`\`\`
+```
 Use associated to find words associated with "changement climatique" in Le Monde from 2000 to 2023
-\`\`\`
+```
 
 **Wildcard search:**
-\`\`\`
+```
 Use joker to find what commonly follows "camarade" in Le Monde
-\`\`\`
+```
 
 ## Architecture
 
